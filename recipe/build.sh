@@ -1,7 +1,7 @@
 #!/bin/bash
 # Get an updated config.sub and config.guess
-cp $BUILD_PREFIX/share/gnuconfig/config.guess config.fsf.guess
-cp $BUILD_PREFIX/share/gnuconfig/config.sub config.fsf.sub
+#cp $BUILD_PREFIX/share/gnuconfig/config.guess config.fsf.guess
+#cp $BUILD_PREFIX/share/gnuconfig/config.sub config.fsf.sub
 
 shopt -s extglob
 chmod +x configure
